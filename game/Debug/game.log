@@ -1,0 +1,16 @@
+﻿  Main.cpp
+C:\Users\User\source\repos\game\Texture.h(14): warning C4114: Множественное использование одного и того же квалификатора типа.
+C:\Users\User\source\repos\game\Texture.h(14,9): warning C4114: Множественное использование одного и того же квалификатора типа.
+C:\Users\User\source\repos\game\Model_Parent.h(20): warning C4114: Множественное использование одного и того же квалификатора типа.
+C:\Users\User\source\repos\game\Model_Parent.h(20,7): warning C4114: Множественное использование одного и того же квалификатора типа.
+C:\Users\User\source\repos\game\Bullet.h(11): warning C4114: Множественное использование одного и того же квалификатора типа.
+C:\Users\User\source\repos\game\Bullet.h(11,8): warning C4114: Множественное использование одного и того же квалификатора типа.
+C:\Users\User\source\repos\game\Character.h(16): warning C4114: Множественное использование одного и того же квалификатора типа.
+C:\Users\User\source\repos\game\Character.h(16,11): warning C4114: Множественное использование одного и того же квалификатора типа.
+C:\Users\User\source\repos\game\Main.cpp(21,26): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
+C:\Users\User\source\repos\game\Main.cpp(52,127): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+C:\Users\User\source\repos\game\Main.cpp(53,135): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+C:\Users\User\source\repos\game\Main.cpp(63,44): warning C4805: ==: небезопасное смешение типа "int" и типа "bool" в операции
+C:\Users\User\source\repos\game\Main.cpp(66,46): warning C4805: ==: небезопасное смешение типа "int" и типа "bool" в операции
+C:\Users\User\source\repos\game\Main.cpp(70,6): warning C4805: ==: небезопасное смешение типа "int" и типа "bool" в операции
+  game.vcxproj -> C:\Users\User\source\repos\game\Debug\game.exe

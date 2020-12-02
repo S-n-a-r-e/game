@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Исходные файлы\Shaders">
+      <UniqueIdentifier>{ab8e8d08-9262-4c0c-bb2d-32922e866095}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Textures">
+      <UniqueIdentifier>{5dbc9b13-427a-4781-990e-198b17b66731}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Object_Parent">
+      <UniqueIdentifier>{f41c660e-65d4-47dd-94f6-7c17cb16504d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Object_Parent\Bullet">
+      <UniqueIdentifier>{696ff906-5c99-47c4-a19a-ba98bf651e4e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Object_Parent\Character">
+      <UniqueIdentifier>{f142747d-ccbd-47f1-b9b5-a8673249623f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="ShaderParser.cpp">
+      <Filter>Исходные файлы\Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>Исходные файлы\Textures</Filter>
+    </ClCompile>
+    <ClCompile Include="Model_Parent.cpp">
+      <Filter>Исходные файлы\Object_Parent</Filter>
+    </ClCompile>
+    <ClCompile Include="Character.cpp">
+      <Filter>Исходные файлы\Object_Parent\Character</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet.cpp">
+      <Filter>Исходные файлы\Object_Parent\Bullet</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ShaderParser.h">
+      <Filter>Исходные файлы\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>Исходные файлы\Textures</Filter>
+    </ClInclude>
+    <ClInclude Include="Character.h">
+      <Filter>Исходные файлы\Object_Parent\Character</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet.h">
+      <Filter>Исходные файлы\Object_Parent\Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="Model_Parent.h">
+      <Filter>Исходные файлы\Object_Parent</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Fragment_Shader_Texture.shader">
+      <Filter>Исходные файлы\Shaders</Filter>
+    </None>
+    <None Include="Vertex_Shader_Texture.shader">
+      <Filter>Исходные файлы\Shaders</Filter>
+    </None>
+  </ItemGroup>
+</Project>
